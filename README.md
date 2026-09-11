@@ -3,8 +3,8 @@
 </div>
 
 ## Лаби з дисципліни **"Об'єктно-орієнтоване програмування"** (ОПП), КПІ ім. Ігоря Сікорського, 2026.
-![C++](https://img.shields.io/badge/language-C%2B%2B-blue?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Visual Studio](https://img.shields.io/badge/IDE-Visual%20Studio-purple?style=for-the-badge&logo=visualstudio&logoColor=white)
+![Java](https://img.shields.io/badge/Java-red?style=for-the-badge&logo=coffee&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IDE-IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow?style=for-the-badge)
 ---
 
@@ -12,10 +12,10 @@
 
 | № | Тема | Посилання |
 |---|------|-----------|
-| №1 | Знайомство із середовищем розробки програм Microsoft Visual Studio та складання модульних проєктів програм на C++ | [Lab1](./Lab1) |
-| №2 | Розробка графічного редактора об’єктів на C++ | — |
-| №3 | Розробка інтерфейсу користувача на C++ | — |
-| №4 | Вдосконалення структури коду графічного редактора об’єктів на C++ | — | 
+| №1 |  Знайомство із середовищем розробки та складання модульних проєктів програм | [Lab1](./Lab1) |
+| №2 | Розробка графічного редактора об’єктів | — |
+| №3 | Розробка інтерфейсу користувача | — |
+| №4 | Вдосконалення структури коду графічного редактора об’єктів | — | 
 | №5 | Розробка багатовіконного інтерфейсу користувача для графічного редактора об’єктів | — |
 | №6 | Побудування програмної системи з множини об’єктів, керованих повідомленнями | — |
 
