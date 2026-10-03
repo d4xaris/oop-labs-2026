@@ -28,7 +28,7 @@ public class Main extends Application {
         outputLabel.setStyle("-fx-font-size: 16px; -fx-padding: 20px;");
 
         itemWork1.setOnAction(e -> Module1.showDialog(primaryStage, this::updateText));
-        itemWork2.setOnAction(e -> Module2.showDialogs(primaryStage, this::updateText));
+        itemWork2.setOnAction(e -> showFirst(primaryStage));
 
         BorderPane root = new BorderPane();
         root.setTop(menuBar);
@@ -36,6 +36,14 @@ public class Main extends Application {
 
         primaryStage.setScene(new Scene(root, 400, 300));
         primaryStage.show();
+    }
+
+    private void showFirst(Stage owner) {
+        Module2.showDialog(owner, () -> showSecond(owner));
+    }
+
+    private void showSecond(Stage owner) {
+        Module3.showDialog(owner, () -> showFirst(owner), this::updateText);
     }
 
     public void updateText(String text) {
