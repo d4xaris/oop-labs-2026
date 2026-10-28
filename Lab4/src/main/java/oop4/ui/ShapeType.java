@@ -1,7 +1,8 @@
-package oop3.ui;
+package oop4.ui;
 
 import javafx.scene.Node;
-import oop3.shape.*;
+import oop4.ui.Icons;
+import oop4.shape.*;
 
 import java.util.function.Supplier;
 
@@ -9,7 +10,9 @@ public enum ShapeType {
     POINT("Крапка", Icons::pointIcon, PointShape::new),
     LINE("Лінія", Icons::lineIcon, LineShape::new),
     RECTANGLE("Прямокутник", Icons::rectIcon, RectShape::new),
-    ELLIPSE("Еліпс", Icons::ellipseIcon, EllipseShape::new);
+    ELLIPSE("Еліпс", Icons::ellipseIcon, EllipseShape::new),
+    LINE_O("Лінія з кружечками", Icons::lineOIcon, LineOShape::new),
+    CUBE("Куб", Icons::cubeIcon, CubeShape::new);
 
     private final String title;
     private final Supplier<Node> icon;
