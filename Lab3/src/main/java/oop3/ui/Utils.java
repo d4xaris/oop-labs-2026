@@ -1,7 +1,13 @@
+package oop3;
+
+import javafx.scene.Node;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.control.Menu;
 import javafx.scene.control.RadioMenuItem;
+import javafx.scene.control.ToggleButton;
 import javafx.scene.control.ToggleGroup;
+import javafx.scene.control.ToolBar;
+import javafx.scene.control.Tooltip;
 import javafx.scene.paint.Color;
 
 public class Utils {
@@ -22,5 +28,15 @@ public class Utils {
         item.setOnAction(e -> onSelect.run());
         menu.getItems().add(item);
         return item;
+    }
+
+    public static ToggleButton iconButton(ToolBar bar, ToggleGroup group, Node icon, String tip, Runnable onSelect) {
+        ToggleButton button = new ToggleButton();
+        button.setGraphic(icon);
+        button.setTooltip(new Tooltip(tip));
+        button.setToggleGroup(group);
+        button.setOnAction(e -> onSelect.run());
+        bar.getItems().add(button);
+        return button;
     }
 }

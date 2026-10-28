@@ -1,16 +1,21 @@
+package oop3.shapes;
+
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
+import oop3.ui.Utils;
 
-public class LineShape extends Shape {
+public class EllipseShape extends Shape {
 
     @Override
     public void show(GraphicsContext gc) {
         Utils.solidStroke(gc, Color.BLACK);
-        gc.strokeLine(x1, y1, x2, y2);
+        outline(gc);
     }
 
     @Override
     protected void outline(GraphicsContext gc) {
-        gc.strokeLine(x1, y1, x2, y2);
+        double dx = Math.abs(x2 - x1);
+        double dy = Math.abs(y2 - y1);
+        gc.strokeOval(x1 - dx, y1 - dy, 2 * dx, 2 * dy);
     }
 }

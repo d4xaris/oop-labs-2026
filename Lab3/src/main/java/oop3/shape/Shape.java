@@ -1,5 +1,8 @@
+package oop3.shapes;
+
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
+import oop3.ui.Utils;
 
 public abstract class Shape {
     protected double x1, y1, x2, y2;
@@ -17,7 +20,7 @@ public abstract class Shape {
     }
 
     public void showRubber(GraphicsContext gc) {
-        Utils.solidStroke(gc, Color.RED);
+        Utils.solidStroke(gc, Color.BLUE);
         outline(gc);
     }
 

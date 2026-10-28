@@ -12,6 +12,8 @@ import javafx.scene.control.ToggleGroup;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
+import oop2.shape.*;
+import oop2.ui.Utils;
 
 // Z = 29
 // Z mod 3 = 2: static array

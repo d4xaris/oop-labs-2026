@@ -1,16 +1,18 @@
+package oop2.shape;
+
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
 
-public class PointShape extends Shape {
+public class LineShape extends Shape {
 
     @Override
     public void show(GraphicsContext gc) {
-        gc.setFill(Color.BLACK);
-        gc.fillOval(x2 - 2, y2 - 2, 4, 4);
+        Utils.solidStroke(gc, Color.BLACK);
+        gc.strokeLine(x1, y1, x2, y2);
     }
 
     @Override
     protected void outline(GraphicsContext gc) {
-        gc.strokeOval(x2 - 2, y2 - 2, 4, 4);
+        gc.strokeLine(x1, y1, x2, y2);
     }
 }

@@ -1,3 +1,5 @@
+package oop2.shape;
+
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
 
