@@ -1,4 +1,4 @@
-package oop3.shapes;
+package oop3.shape;
 
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;

@@ -1,7 +1,7 @@
-package oop3.shapes;
+package oop3.ui;
 
 import javafx.scene.Node;
-import oop3.ui.Icons;
+import oop3.shape.*;
 
 import java.util.function.Supplier;
 

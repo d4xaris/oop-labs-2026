@@ -1,4 +1,4 @@
-package oop3;
+package oop3.ui;
 
 import javafx.scene.Node;
 import javafx.scene.canvas.GraphicsContext;
