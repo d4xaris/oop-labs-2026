@@ -1,7 +1,7 @@
 ## Лаби з дисципліни **"Об'єктно-орієнтоване програмування"** (ОПП), КПІ ім. Ігоря Сікорського, 2026.
 ![Java](https://img.shields.io/badge/Java-red?style=for-the-badge&logo=coffee&logoColor=white)
 ![IntelliJ IDEA](https://img.shields.io/badge/IDE-IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
-![Status](https://img.shields.io/badge/status-in%20progress-yellow?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-done-brightgreen?style=for-the-badge)
 ---
 
 ## Зміст
