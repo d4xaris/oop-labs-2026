@@ -15,34 +15,39 @@ public class DrawingCanvas extends Canvas {
     public DrawingCanvas(double width, double height) {
         super(width, height);
 
-        setOnMousePressed(e -> {
-            if (count >= N) {
-                return;
-            }
-            current = type.createShape();
-            current.setStart(e.getX(), e.getY());
-            redraw();
-        });
-        setOnMouseDragged(e -> {
-            if (current != null) {
-                current.setEnd(e.getX(), e.getY());
-                redraw();
-            }
-        });
-        setOnMouseReleased(e -> {
-            if (current != null) {
-                current.setEnd(e.getX(), e.getY());
-                pcshape[count++] = current;
-                current = null;
-                redraw();
-            }
-        });
-
+        setOnMousePressed(e -> onLBDown(e.getX(), e.getY()));
+        setOnMouseDragged(e -> onMouseMove(e.getX(), e.getY()));
+        setOnMouseReleased(e -> onLBUp(e.getX(), e.getY()));
         redraw();
     }
 
     public void setType(ShapeType type) {
         this.type = type;
+    }
+
+    private void onLBDown(double x, double y) {
+        if (count >= N) {
+            return;
+        }
+        current = type.createShape();
+        current.setStart(x, y);
+        redraw();
+    }
+
+    private void onMouseMove(double x, double y) {
+        if (current != null) {
+            current.setEnd(x, y);
+            redraw();
+        }
+    }
+
+    private void onLBUp(double x, double y) {
+        if (current != null) {
+            current.setEnd(x, y);
+            pcshape[count++] = current;
+            current = null;
+            redraw();
+        }
     }
 
     public void redraw() {

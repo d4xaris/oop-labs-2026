@@ -1,8 +1,9 @@
+package oop1.module;
+
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
-
-import java.util.function.Consumer;
+import oop1.ui.Utils;
 
 // B2 = 2
 

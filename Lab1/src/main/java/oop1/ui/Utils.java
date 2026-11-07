@@ -1,3 +1,5 @@
+package oop1.ui;
+
 import javafx.geometry.Pos;
 import javafx.scene.Node;
 import javafx.scene.Scene;

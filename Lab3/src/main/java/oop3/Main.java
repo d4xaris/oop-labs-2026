@@ -64,7 +64,7 @@ public class Main extends Application {
         stage.setScene(new Scene(root, 600, 460));
         stage.show();
     }
-    
+
     private void select(ShapeType t) {
         type = t;
         items[t.ordinal()].setSelected(true);

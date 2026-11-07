@@ -1,7 +1,10 @@
+package oop1.module;
+
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.Slider;
 import javafx.stage.Stage;
+import oop1.ui.Utils;
 
 import java.util.function.Consumer;
 

@@ -7,6 +7,9 @@ import javafx.scene.control.MenuItem;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import oop1.module.Module1;
+import oop1.module.Module2;
+import oop1.module.Module3;
 
 public class Main extends Application {
     private Label outputLabel;

@@ -1,0 +1,100 @@
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.top {
+    -fx-background-color: #505050;
+    -fx-padding: 8 14 4 14;
+}
+
+.base-panel {
+    -fx-spacing: 8;
+}
+
+.base-panel .toggle-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #9a9a9a;
+    -fx-font-size: 12px;
+    -fx-cursor: hand;
+    -fx-padding: 2 4;
+}
+
+.base-panel .toggle-button:selected {
+    -fx-text-fill: #f1a03c;
+    -fx-font-weight: bold;
+}
+
+.display {
+    -fx-text-fill: white;
+    -fx-font-size: 56px;
+    -fx-alignment: center-right;
+    -fx-padding: 10 0;
+}
+
+.keypad {
+    -fx-background-color: #3a3a3a;
+}
+
+.keypad .button {
+    -fx-background-color: #737373;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-border-color: #3a3a3a;
+    -fx-border-width: 1;
+    -fx-text-fill: white;
+    -fx-font-size: 24px;
+    -fx-cursor: hand;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.keypad .button:hover {
+    -fx-background-color: #858585;
+}
+
+.keypad .button:pressed {
+    -fx-background-color: #5c5c5c;
+}
+
+.keypad .button:disabled {
+    -fx-opacity: 0.35;
+}
+
+.keypad .func {
+    -fx-background-color: #636363;
+}
+
+.keypad .func:hover {
+    -fx-background-color: #737373;
+}
+
+.keypad .func:pressed {
+    -fx-background-color: #4c4c4c;
+}
+
+.keypad .op {
+    -fx-background-color: #f1a03c;
+    -fx-font-size: 30px;
+}
+
+.keypad .op:hover {
+    -fx-background-color: #f5ab56;
+}
+
+.keypad .op:pressed {
+    -fx-background-color: #c97d22;
+}
+
+.keypad .hex {
+    -fx-background-color: #4a4a4a;
+    -fx-font-size: 16px;
+    -fx-padding: 8;
+}
+
+.keypad .hex:hover {
+    -fx-background-color: #5a5a5a;
+}
+
+.keypad .hex:pressed {
+    -fx-background-color: #3f3f3f;
+}
