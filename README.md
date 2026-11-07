@@ -1,6 +1,3 @@
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=40&duration=3000&pause=1000&color=F5F5F5&center=true&vCenter=true&width=600&height=70&lines=OOP+LABS;Object-Oriented+Programming;KPI+%E2%80%A2+2026" alt="OOP LABS"/>
-</div>
-
 ## Лаби з дисципліни **"Об'єктно-орієнтоване програмування"** (ОПП), КПІ ім. Ігоря Сікорського, 2026.
 ![Java](https://img.shields.io/badge/Java-red?style=for-the-badge&logo=coffee&logoColor=white)
 ![IntelliJ IDEA](https://img.shields.io/badge/IDE-IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
@@ -15,7 +12,7 @@
 | №2 | Розробка графічного редактора об’єктів | [Lab2](./Lab2) |
 | №3 | Розробка інтерфейсу користувача | [Lab3](./Lab3)              |
 | №4 | Вдосконалення структури коду графічного редактора об’єктів | [Lab4](./Lab4)              | 
-| №5 | Розробка багатовіконного інтерфейсу користувача для графічного редактора об’єктів | —              |
-| №6 | Побудування програмної системи з множини об’єктів, керованих повідомленнями | —              |
-
+| №5 | Розробка багатовіконного інтерфейсу користувача для графічного редактора об’єктів | [Lab5](./Lab5)              |
+| №6 | Побудування програмної системи з множини об’єктів, керованих повідомленнями | [Lab6](./Lab6)              |
+| РГР | Запрограмувати програму – калькулятор | [CalcNGraph](./CalcNGraph) | —              |
 ---
